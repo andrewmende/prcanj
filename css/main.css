@@ -1,6 +1,6 @@
 /* Fonts */
 	
-	@import url('https://fonts.googleapis.com/css?family=Alice|Open+Sans&subset=cyrillic,cyrillic-ext');
+	@import url('https://fonts.googleapis.com/css?family=Marmelad&subset=cyrillic');
 
 /* Stylesheet */
 	
@@ -20,7 +20,7 @@
 	}
 
 	h1, h2 {
-		font-family: 'Alice', serif;
+		font-family: 'Marmelad', sans-serif;
 	}
 
 	p {
@@ -34,7 +34,7 @@
 
 /* Header block */
 	#header {
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/banner-1.jpeg);
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/banner-1.png);
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -61,11 +61,11 @@
 /* Products */
 	section.product {
 		text-align: center;
-		padding: 3em 2em 0em 2em;
+		padding: 3em 1em 0em 1em;
 	}
 
 		.product h2 {
-			font-size: 2em;
+			font-size: 1.5em;
 		}
 
 		.product-pic {
@@ -100,8 +100,10 @@
 		}
 
 		.product p {
-			text-align: left;
-			font-size: small;
+			text-align: center;
+			font-size: 1em;
+			line-height: 1.7em;
+			font-weight: 300;
 			margin: 1em auto;
 		}
 
