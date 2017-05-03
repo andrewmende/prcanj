@@ -1,0 +1,139 @@
+/* Fonts */
+	
+	@import url('https://fonts.googleapis.com/css?family=Alice|Open+Sans&subset=cyrillic,cyrillic-ext');
+
+/* Stylesheet */
+	
+	body {
+		font-family: 'Open Sans', sans-serif;
+		margin: 0px;
+	}
+
+	a {
+		color: inherit;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		letter-spacing: 0.04em;
+		line-height: 1em;
+		margin: 0 0 1em 0;
+	}
+
+	h1, h2 {
+		font-family: 'Alice', serif;
+	}
+
+	p {
+		display: block;
+		margin: 1em 0em;
+	}
+
+	hr {
+		margin: 2em 0;
+	}
+
+/* Header block */
+	#header {
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/banner-1.jpeg);
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#header {
+		color: #fff;
+		text-align: center;
+		padding: 6em 3em 3em 3em;
+		height: auto;
+		min-height: 0;
+	}
+
+		#header h1 {
+			font-size: 3em;
+		}
+
+		#header a {
+			text-decoration: none;
+		}
+
+		#header p {
+			font-size: 1.5em;
+		}
+/* Products */
+	section.product {
+		text-align: center;
+		padding: 3em 2em 0em 2em;
+	}
+
+		.product h2 {
+			font-size: 2em;
+		}
+
+		.product-pic {
+			position: relative;
+			margin: 0px auto;
+			height: 250px;
+		}
+
+		.red-velvet-1 {
+			background: url('http://cakes.mende.ru/wp-content/uploads/2016/11/IMG_1753.jpg') no-repeat center;
+		}
+
+		.chocolade-1 {
+			background: url('http://cakes.mende.ru/wp-content/uploads/2015/12/IMG_8397.jpg') no-repeat center;
+		}
+
+		.cupcakes-1 {
+			background: url('http://cakes.mende.ru/wp-content/uploads/2015/12/IMG_8853.jpg') no-repeat center;
+		}
+
+		.trust_me-1 {
+			background: url('http://cakes.mende.ru/wp-content/uploads/2016/10/IMG_8151-e1482319132766.jpg') no-repeat center;
+		}
+
+		.product-img {
+			background-size: cover;
+			animation: fade 10s infinite;
+			-webkit-animation: fade 10s infinite;
+			position: absolute;
+			width: 100%;
+			height: 100%;
+		}
+
+		.product p {
+			text-align: left;
+			font-size: small;
+			margin: 1em auto;
+		}
+
+		.product-cta {
+			background: #DDDDDD;
+			width: 70%;
+			margin: 2em auto;
+			border-radius: 10px;
+			padding: 0.5em;
+		}
+
+		.product hr {
+			border: 0;
+    		border-bottom: solid 1px #DDDDDD;
+    		margin: 0;
+		}
+
+/* Екгые ьу */
+	#trust_me {
+		text-align: center;
+		padding: 3em 2em 0em 2em;
+		background-color: #333333;
+		color: #ffffff;
+	}
+
+		
+		#trust_me h2 {
+			font-family: 'Open Sans', sans-serif;
+			font-size: 2em;
+		}
+
+		#trust_me p {
+			text-align: left;
+			font-size: 0.9em;
+		}
