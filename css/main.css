@@ -58,39 +58,24 @@
 		#header p {
 			font-size: 1.5em;
 		}
-/* Products */
-	section.product {
+
+/* blocks */
+	section.block {
 		text-align: center;
 		padding: 3em 1em 0em 1em;
 	}
 
-		.product h2 {
+		.block h2 {
 			font-size: 1.5em;
 		}
 
-		.product-pic {
+		.block-pic {
 			position: relative;
 			margin: 0px auto;
 			height: 250px;
 		}
 
-		.red-velvet-1 {
-			background: url('http://cakes.mende.ru/wp-content/uploads/2016/11/IMG_1753.jpg') no-repeat center;
-		}
-
-		.chocolade-1 {
-			background: url('http://cakes.mende.ru/wp-content/uploads/2015/12/IMG_8397.jpg') no-repeat center;
-		}
-
-		.cupcakes-1 {
-			background: url('http://cakes.mende.ru/wp-content/uploads/2015/12/IMG_8853.jpg') no-repeat center;
-		}
-
-		.trust_me-1 {
-			background: url('http://cakes.mende.ru/wp-content/uploads/2016/10/IMG_8151-e1482319132766.jpg') no-repeat center;
-		}
-
-		.product-img {
+		.block-img {
 			background-size: cover;
 			animation: fade 10s infinite;
 			-webkit-animation: fade 10s infinite;
@@ -99,7 +84,7 @@
 			height: 100%;
 		}
 
-		.product p {
+		.block p {
 			text-align: center;
 			font-size: 1em;
 			line-height: 1.7em;
@@ -107,7 +92,7 @@
 			margin: 1em auto;
 		}
 
-		.product-cta {
+		.block-cta {
 			background: #DDDDDD;
 			width: 70%;
 			margin: 2em auto;
@@ -115,13 +100,65 @@
 			padding: 0.5em;
 		}
 
-		.product hr {
+		.block hr {
 			border: 0;
     		border-bottom: solid 1px #DDDDDD;
     		margin: 0;
 		}
+	section.gray {
+		background: #EBEBEB
+	}
+		.gray .block-cta {
+			background-color: #666666;
+			color: #FFFFFF;
+		}
+	
+		.countdown h1 {
+			border: 1px dashed #AAAAAA;
+			border-radius: 10px;
+			padding: 0.5em;
+			font-size: 2em;
+		}
+	section.contact {
+		background-color: #333333;
+		color: #EEEEEE;
+		padding-bottom: 1em;
+	}
+		.contact .bullet_point {
+			margin-bottom: 5px;
+		}
 
-/* Екгые ьу */
+		.contact .bullet_bullet {
+			width: 20%;
+			font-size: 1em;
+			padding-top: 0px;
+		}
+		.contact .bullet_text {
+			width: 68%
+		}
+		.contact .block-cta {
+			color: #333333;
+		}
+/* Bulleted list section*/
+		.bullet_point {
+			width: 100%;
+			margin-bottom: 15px;
+		}
+		.bullet_bullet {
+			width: 10%;
+			display: inline-block;
+			vertical-align: top;
+			text-align: right;
+			padding-top: 5px;
+			font-size: 1.2em;
+		}
+		.bullet_text {
+			display: inline-block;
+			width: 78%;
+			text-align: left;
+			padding-left: 10px;
+		}
+/* Trust me */
 	#trust_me {
 		text-align: center;
 		padding: 3em 2em 0em 2em;
